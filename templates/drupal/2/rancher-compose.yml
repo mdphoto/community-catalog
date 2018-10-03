@@ -1,7 +1,7 @@
 version: '2'
 catalog:
   name: "Drupal"
-  version: "8.6.1-rancher1"
+  version: "drupal:8.6.1-fpm-alpine"
   description: "Blog tool, publishing platform and CMS"
   uuid: Drupal-0
   minimum_rancher_version: v0.51.0

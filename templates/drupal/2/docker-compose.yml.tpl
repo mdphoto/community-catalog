@@ -1,7 +1,7 @@
 version: '2'
 services:
   drupal:
-    image: drupal:8.6.1-apache
+    image: drupal:8.6.1-fpm-alpine
     labels:
       io.rancher.container.hostname_override: container_name
     links:
